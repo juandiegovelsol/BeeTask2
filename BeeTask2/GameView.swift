@@ -1,6 +1,7 @@
+// GameView.swift
 import SwiftUI
 
-struct ContentView: View {
+struct GameView: View {
     @StateObject private var gameManager = GameManager()
     
     var body: some View {
